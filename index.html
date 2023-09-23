@@ -7,39 +7,62 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
     <title>Biblioteca de Roms</title>
     
 </head>
 
 <body>
-    <main>
-        <div id="container1">
-            <div id="nes">
-                <img id="imgnes" src="imagens/console-nes.png" alt="console nes"></a>
-                <h2>Biblioteca de Roms Nintendo 8 Bits</h2>
-                <a href="https://archive.org/download/NESrompack/NESroms.rar"><button class="btn"><i class="fa fa-download"></i> Download</button></a>
-            </div>
-            <div id="snes">
-                <a href="https://archive.org/download/cylums-snes-rom-collection/Cylum%27s%20SNES%20ROM%20Collection%20%2802-14-2021%29.zip"><img id="imgsnes" src="imagens/snes-console.png" alt="console super nintendo"></a>
-                <h2>Biblioteca de Roms de Super Nintendo</h2>
-                <p>Para fazer o download clique na imagem</p>
-            </div>
-            <div id="n64">
-                <a href="https://archive.org/details/n64-raspberry-pi-buenos-aires"><img id="imgn64" src="imagens/n64-console.png" alt="console nintendo 64">  </a>
-                <h2>Biblioteca de Roms de Nintendo 64</h2>
-                <p>Para fazer o download clique na imagem</p>
-            </div>
+    <main class="container mb-3">
 
-            <div id="mastersystem">
-                <a href="https://archive.org/download/cylums-sega-master-system-rom-collection/Cylum%27s%20Sega%20Master%20System%20ROM%20Collection%20%2802-16-2021%29.zip"><img id="imgmaster" src="imagens/master-system-console.gif" alt="console master system"></a>    
-                <h2>Biblioteca de Roms de Master System</h2>
-                <p>Para fazer o download clique na imagem</p>
+        <div class="container mt-4">
+            <div class="row m-auto">
+              <div class="col-sm-3">
+                <div class="card mt-1" style="width: 16rem;">
+                  <img src="./images/rachid-lotf-nes-castlevania-iii.jpg" style="height: 23em;" class="card-img-top" alt="card01">
+                  <div class="card-body">
+                    <h5 class="card-title">NES - O Famoso Nintendinho</h5>
+                    <p class="card-text">Lançado pela Nintendo em 1985, é um marco na história dos videogames e um ícone da cultura gamer. Conhecido como o "Nintendinho", ele introduziu uma geração de jogadores a títulos lendários como Super Mario Bros., The Legend of Zelda e Metroid. </p>
+                    <a href="https://archive.org/download/NESrompack/NESroms.rar" class="btn btn-primary">Download</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card mt-1" style=" width: 16rem; ">
+                  <img src="./images/rachid-lotf-rachid-lotf-paysage-303-01.jpg" style="height: 23em ;" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gameboy</h5>
+                    <p class="card-text">Lançado em 1989, é um dos consoles portáteis mais icônicos da história dos videogames. Com sua tela monocromática e design compacto, o Game Boy permitiu que os jogadores levassem consigo aventuras épicas, como Pokémon, Tetris e The Legend of Zelda.</p>
+                    <a href="https://archive.org/download/ni-roms/roms/Nintendo%20-%20Game%20Boy.zip" class="btn btn-primary">Download</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card mt-1" style="width: 16rem;">
+                  <img src="./images/snes.jpg" style="height: 23em ; class=" card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Super Nintendo</h5>
+                    <p class="card-text">Lançado pela Nintendo em 1990, ele trouxe uma revolução nos gráficos e na jogabilidade, apresentando títulos que se tornariam clássicos, como Super Mario World, The Legend of Zelda e Super Metroid. Cativou uma geração de jogadores com experiências de jogo memoráveis. </p>
+                    <a href="https://archive.org/download/ni-roms/roms/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System.zip" class="btn btn-primary">Download</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card mt-1" style="width: 16rem;">
+                  <img src="./images/mega-drive-genesis.jpg" style="height: 23em; class=" card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mega Drive</h5>
+                    <p class="card-text">Lançado em 1988, ofereceu gráficos avançados e uma biblioteca de jogos que incluía títulos memoráveis como Sonic the Hedgehog, Streets of Rage e Phantasy Star. Sua rivalidade com o Super Nintendo gerou uma das competições mais acirradas na história dos videogames.</p>
+                    <a href="https://archive.org/download/ni-roms/roms/Sega%20-%20Mega%20Drive%20-%20Genesis.zip" class="btn btn-primary">Download</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-
-            </div>        
-        </div>
-        
-        
+       
             
 
 
@@ -47,5 +70,7 @@
 
     </main>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
