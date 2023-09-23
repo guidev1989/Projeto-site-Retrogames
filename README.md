@@ -6,4 +6,4 @@ Feito com HTML/CSS e Bootstrap
 
 *IMPORTANTE: Todos os links foram encontrados na web, não existe nenhum arquivo hospedado
 
-link para o site -> https://guidev1989.github.io/Retrogames/
+link para o site -> https://guidev1989.github.io/Projeto-site-Retrogames/
